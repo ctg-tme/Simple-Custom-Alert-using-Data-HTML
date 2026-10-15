@@ -246,7 +246,7 @@ function buildDemoUI(){
   <Panel>
     <Location>HomeScreenAndCallControls</Location>
     <Icon>Info</Icon>
-    <Name>Classification Alert Demo</Name>
+    <Name>Custom Alert Demo</Name>
     <ActivityType>Custom</ActivityType>
     <Page>
       <Name>Select to Preview and Alert</Name>
@@ -254,19 +254,19 @@ function buildDemoUI(){
         <Name>Row</Name>
         <Widget>
           <WidgetId>cad~openAlert~green</WidgetId>
-          <Name>Green Class 🟢</Name>
+          <Name>Green Alert 🟢</Name>
           <Type>Button</Type>
           <Options>size=4</Options>
         </Widget>
         <Widget>
           <WidgetId>cad~openAlert~yellow</WidgetId>
-          <Name>Yellow Class 🟡</Name>
+          <Name>Yellow Alert 🟡</Name>
           <Type>Button</Type>
           <Options>size=4</Options>
         </Widget>
         <Widget>
           <WidgetId>cad~openAlert~red</WidgetId>
-          <Name>Red Class 🔴</Name>
+          <Name>Red Alert 🔴</Name>
           <Type>Button</Type>
           <Options>size=4</Options>
         </Widget>
